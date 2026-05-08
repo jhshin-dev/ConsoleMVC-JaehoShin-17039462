@@ -7,6 +7,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 **S-Semi 반도체 시료 생산주문관리 시스템** — 콘솔 기반 C++20 애플리케이션.  
 주문 담당자·생산 담당자가 시료 등록, 주문 처리, 재고 관리, 공정 현황을 콘솔 명령으로 운영한다.
 
+> **현재 단계: PoC (Proof of Concept)**  
+> 핵심 로직(주문 상태 머신, 재고 처리, JSON 영속성)의 작동 여부를 확인하는 것이 목적이다.  
+> 예외 처리 완성도·UI 완성도보다 핵심 흐름이 올바르게 동작하는지를 우선한다.
+
 ## Build
 
 **IDE**: Visual Studio 2022 (v145 toolset), solution file `ConsoleMVC.slnx`  
