@@ -10,6 +10,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 > **현재 단계: PoC (Proof of Concept)**  
 > 핵심 로직(주문 상태 머신, 재고 처리, JSON 영속성)의 작동 여부를 확인하는 것이 목적이다.  
 > 예외 처리 완성도·UI 완성도보다 핵심 흐름이 올바르게 동작하는지를 우선한다.
+>
+> **PoC 완료 목표**: `model/` · `controller/` · `view/` 패키지 구조를 실제로 분리 구현하고,  
+> 각 레이어의 역할(Model = 데이터·영속성, Controller = 비즈니스 로직·입력 처리, View = 콘솔 출력 전담)이  
+> 코드 수준에서 명확히 경계가 그어진 상태로 빌드·실행 가능한 것.
 
 ## Build
 
